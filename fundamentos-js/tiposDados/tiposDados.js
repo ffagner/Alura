@@ -71,3 +71,35 @@ const primeroNumber = 3
 const segundoNumber = 8
 console.log(primeroNumber === segundoNumber)
 
+//funções
+
+function nome(nome){
+    return nome
+}
+
+console.log(nome('Fagner'))
+
+//exemplo de função
+// Math
+//Math.round() - arredonda o número para o inteiro mais próximo
+console.log(Math.round(3.8758))
+//math.ceil() - arredonda o número para cima
+console.log(Math.ceil(3.8758))
+//math.floor() - arredonda o número para baixo
+console.log(Math.floor(3.8758))
+//math.trunc() - remove a parte decimal do número
+console.log(Math.trunc(3.8758))
+//math.pow() - eleva o número a potência desejada
+console.log(Math.pow(3, 2))
+//math.sqrt() - retorna a raiz quadrada do número
+console.log(Math.sqrt(9))
+//math.min() - retorna o menor número
+console.log(Math.min(3, 5, 7, 9, 1, 2, 4, 6, 8))
+//math.max() - retorna o maior número
+console.log(Math.max(3, 5, 7, 9, 1, 2, 4, 6, 8))
+//math.random() - retorna um número aleatório entre 0 e 1
+console.log(Math.random())
+
+
+
+
