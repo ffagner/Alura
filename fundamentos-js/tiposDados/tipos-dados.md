@@ -51,3 +51,20 @@ Funções são blocos de código que podem ser executados quando são chamados. 
 - Parâmetros são variáveis que são usadas para armazenar os valores que são passados para uma função quando ela é chamada.
 - Argumentos são os valores reais passados para uma função.
 
+## expressões de função
+As expressões de função são blocos de código que podem ser executados quando são chamados. Para criar uma expressão de função, você deve usar a palavra-chave `function` seguida pelo nome da função.
+- A diferença entre declaração de função e expressão de função é que a expressão de função é uma função anônima que é atribuída a uma variável.
+
+## Hoisting
+Hoisting é um comportamento padrão de mover declarações para o topo. Isso significa que você pode usar uma função ou variável antes de declará-la.
+
+## IIFE
+IIFE é uma função imediatamente invocada que é executada assim que é definida. Para criar uma IIFE, você deve usar uma expressão de função seguida por parênteses. Por exemplo:
+
+`(function(){`
+    `console.log('IIFE')`
+`})()`
+
+## Arrow Functions
+Arrow functions são funções anônimas mais curtas. Para criar uma arrow function, você deve usar a palavra-chave `function` seguida pelo nome da função. Por exemplo:
+

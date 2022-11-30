@@ -100,6 +100,53 @@ console.log(Math.max(3, 5, 7, 9, 1, 2, 4, 6, 8))
 //math.random() - retorna um número aleatório entre 0 e 1
 console.log(Math.random())
 
+//usando funções com parâmetros
 
+function soma(a, b){
+    //a e b são parâmetros
+    return a + b
+}
 
+console.log(soma(3, 5))
+// diferença entre parâmetros e argumentos
+// parâmetros são os valores que a função espera receber
+// argumentos são os valores que a função recebe
 
+//exemplo de função com parâmetros
+function nomeIdade(nome, idade){
+    return `Meu nome é ${nome} e tenho ${idade} anos`
+}
+console.log(nomeIdade('Fagner', 32))
+
+//exemplo de função com parâmetros usando outras funções
+function soma(a, b){
+    return a + b
+}
+function multiplica(a, b){
+    return a * b
+}
+
+console.log(multiplica(soma(3, 5), soma(2,6)))
+
+//esemplo de parametro default
+function soma(a = 0, b = 0){
+    return a + b
+}
+console.log(soma(3, 5))
+
+//em javascript, uma função tem valor undefined quando o valor não está definido.
+
+//expressões de função
+//uma expressão de função é uma função anônima que pode ser atribuída a uma variável
+const soma = function(a, b){
+    return a + b
+}
+console.log(soma(3, 5))
+
+//Arrow Function
+//uma arrow function é uma função anônima que pode ser atribuída a uma variável
+const soma = (a, b) => {
+    // => é a arrow function
+    return a + b
+}
+console.log(soma(3, 5))
