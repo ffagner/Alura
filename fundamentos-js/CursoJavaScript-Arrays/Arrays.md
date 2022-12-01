@@ -13,8 +13,8 @@ Os Arrays são uma estrutura de dados que nos permite armazenar uma coleção de
 - pop - remove o último elemento do array
 - shift - remove o primeiro elemento do array
 - unshift - adiciona um elemento no início do array
-- splice - remove um elemento do array
-- slice - copia um array
+- splice - remove um elemento do array a partir de um índice 
+- slice - copia um array a partir de um fatiamento (slice) de outro array.
 - indexOf - retorna o índice do elemento
 - join - junta os elementos do array em uma string
 - split - separa uma string em um array
@@ -27,6 +27,10 @@ Os Arrays são uma estrutura de dados que nos permite armazenar uma coleção de
 - filter - executa uma função para cada elemento do array e retorna um novo array com os elementos que passaram no teste
 - reduce - executa uma função para cada elemento do array e retorna um único valor
 
+## Desestruturação de Arrays
+- Desestruturação de arrays é uma forma de extrair dados de um array e atribuí-los a variáveis.
+
 ## Loops
+- O loop for é uma estrutura de repetição que nos permite executar um bloco de código um número determinado de vezes.
 
 ## Funções de callback
